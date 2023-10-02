@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+/*Home Page*/
+.header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14;
+    font-weight: bold;
+    padding:   
+}
+
+.menustyle {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22.093px;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration-line: none;
+
+}
+.menustyle ul li{
+    float: left;
+    padding:20px;
+}
+/*presta atenção aqui que isso tira o ponto da lista, por isso que tem que colocar
+ul que vc colocou lá*/
+.menustyle ul {
+    list-style: none;
+}
+/*esse nth child é tipo economizar tipo o primeiro link que tá
+na lista, e o segundo*/
+.menustyle li:nth-child(1) a:hover {
+    background-color: #7cd374;
+    width: 150px;
+    height: 60px;
+  }
+  
+  .menustyle li:nth-child(2) a:hover {
+    background-color: #74d3d3;
+    width: 150px;
+    height: 60px;
+  }
+  
+  .menustyle li:nth-child(3) a:hover {
+    background-color: #74d3d3;
+    width: 150px;
+    height: 60px;
+  }
+  
+  nav ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+/*Aqui isso aqui que deixa horizontal*/
+nav ul li{
+    float: left;
+}
+
+.texto1 {
+    font-size: 38.02px;
+    font-style: italic;
+    position: absolute;
+    font-family: Poppins;
+   
+}
+
+.texto2 {
+    
+    color: #000;
+    font-family: Poppins;
+    font-size: 162.789px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Poppins;
+}
+
+.espacamento{
+    float:center;
+}
+
+
+  
+/* quem sou eu*/
+.quemsou{
+    color: #000;
+    font-family: Poppins;
+    font-size: 22.093px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: normal;
+    
+}
+.container {
+    overflow: hidden;
+}
+
+/*ajustando a imagem aqui*/
+.quemsou {
+    float: left;
+    width: 50%;
+}
+
+.imagem {
+    float: right;
+    width: 50%;
+}
+
+
+
+
+/*formulario*/
+
+.formulario{
+    color: #000;
+    font-family: Poppins;
+    font-size: 22.093px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: normal;
+}
+
+
+
+/*Interesse*/
+.textoInt {
+    font-size: 20px;
+    position: absolute;
+    font-family: Poppins;
+   
+}
+.card {
+    width: 328px;
+    height: 380px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+    display: inline-block; /*isso aqui que coloca os cards na horizontal*/
+}
+/*aqui é card com imagem*/
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*rodape*/
+.footer{
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22.093px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    padding: 20px 0 30px 0;
+    
+      
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+.quadrado{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* Para telefones celulares: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* Para tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* Para desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
