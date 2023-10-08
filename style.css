@@ -1,19 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
-* {
-    box-sizing: border-box;
-  }
+
   body {
-    background: url("../img/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    font-family: Poppins;
+    background-image: url(./img/paper2.gif);
   }
   
+
+
+  /*não funcionou mas deixa ai*/
+  /*.container{
+    width: 1080px;
+    height: 400px;
+    margin: 0 auto;
+}*/
+  
+
+
+/*-------------header----------------------*/
 /*Home Page*/
-.header {
+
+header{ /*isso aqui é um bloco*/
+    padding: 10px; /*espaçamento do meu cabeçalho*/
+    height: 50px;
+    margin: 10px;
+}
+#logo h1{
+    float: left;
+}
+
+#logo a {
     font-family: 'Poppins', sans-serif;
     font-size: 14;
     font-weight: bold;
-    padding:   
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    
+    
 }
 
 .menustyle {
@@ -22,38 +45,45 @@
     font-size: 22.093px;
     font-style: italic;
     font-weight: normal;
-    text-decoration-line: none;
+    
 
 }
 .menustyle ul li{
     float: left;
     padding:20px;
+    
 }
 /*presta atenção aqui que isso tira o ponto da lista, por isso que tem que colocar
 ul que vc colocou lá*/
 .menustyle ul {
     list-style: none;
+    
+    
 }
-/*esse nth child é tipo economizar tipo o primeiro link que tá
+
+.menustyle a {
+    text-decoration-line: none;
+}
+/*esse nth type é tipo economizar tipo o primeiro link que tá
 na lista, e o segundo*/
-.menustyle li:nth-child(1) a:hover {
+.menustyle li:nth-of-type(1) a:hover {
     background-color: #7cd374;
     width: 150px;
     height: 60px;
-  }
-  
-  .menustyle li:nth-child(2) a:hover {
+}
+
+.menustyle li:nth-of-type(2) a:hover {
     background-color: #74d3d3;
     width: 150px;
     height: 60px;
-  }
-  
-  .menustyle li:nth-child(3) a:hover {
-    background-color: #74d3d3;
+}
+
+.menustyle li:nth-of-type(3) a:hover {
+    background-color: #d3ba74;
     width: 150px;
     height: 60px;
-  }
-  
+}
+
   nav ul{
     list-style: none;
     margin: 20px;
@@ -65,6 +95,16 @@ nav ul li{
     float: left;
 }
 
+/*-----------------fim do header------------------*/
+
+
+/*---SECTION----*/
+section{ /*isso aqui é um bloco*/
+    padding: 50px 20px ; /*espaçamento da minha section desliza na horizontal*/
+    height: 50px;
+    margin: 10px;
+}
+
 .texto1 {
     font-size: 38.02px;
     font-style: italic;
@@ -73,35 +113,50 @@ nav ul li{
    
 }
 
-.texto2 {
-    
+.texto2 {   
     color: #000;
     font-family: Poppins;
     font-size: 162.789px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     font-family: Poppins;
 }
 
-.espacamento{
-    float:center;
+.texto3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: bold;
 }
+
+/*----------fim do section------*/ 
+
+/*------------------rodape------------------*/
+.footer{
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22.093px;
+    font-style: italic;
+    padding: 20px 0 30px 0; 
+    clear: both;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    margin: 0px;
+}
+/*------------------ FIM DO rodape------------------*/
 
 
   
-/* quem sou eu*/
-.quemsou{
+/* -----------quem sou eu------------*/
+
+
+.quemsou p{
     color: #000;
     font-family: Poppins;
     font-size: 22.093px;
     font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    
-}
-.container {
-    overflow: hidden;
 }
 
 /*ajustando a imagem aqui*/
@@ -127,6 +182,7 @@ nav ul li{
     font-style: italic;
     font-weight: normal;
     line-height: normal;
+    text-decoration: none;
 }
 
 
@@ -154,48 +210,6 @@ nav ul li{
     border-radius: 10px;
     margin-bottom: 10px;
 }
-
-
-/*rodape*/
-.footer{
-    background-color: #000;
-    color: #ffffff;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 22.093px;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 18px;
-    padding: 20px 0 30px 0;
-    
-      
-}
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-.quadrado{
-    float: left;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
