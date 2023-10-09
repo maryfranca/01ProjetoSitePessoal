@@ -2,7 +2,10 @@
 
   body {
     font-family: Poppins;
-    background-image: url(./img/paper2.gif);
+    background-image: url(./img/sps.gif);
+    color: white;
+    
+    background-size: cover;
   }
   
 
@@ -34,17 +37,19 @@ header{ /*isso aqui é um bloco*/
     font-weight: bold;
     padding: 0;
     text-decoration: none;
-    color: black;
+    color: white;
+    
     
     
 }
 
 .menustyle {
-    color: #000;
+    
     font-family: Poppins;
     font-size: 22.093px;
     font-style: italic;
     font-weight: normal;
+    color: white;
     
 
 }
@@ -63,7 +68,8 @@ ul que vc colocou lá*/
 
 .menustyle a {
     text-decoration-line: none;
-    color: #000;
+    color: white;
+    
 }
 /*esse nth type é tipo economizar tipo o primeiro link que tá
 na lista, e o segundo*/
@@ -101,9 +107,10 @@ nav ul li{
 
 /*---SECTION----*/
 section{ /*isso aqui é um bloco*/
-    padding: 50px 20px ; /*espaçamento da minha section desliza na horizontal*/
-    height: 50px;
+    padding: 50px 20px; /*espaçamento da minha section desliza na horizontal*/
+    height: 10px;
     margin: 10px;
+    margin-top: 30px;
 }
 
 .texto1 {
@@ -111,22 +118,25 @@ section{ /*isso aqui é um bloco*/
     font-style: italic;
     position: absolute;
     font-family: Poppins;
+    color: white;
    
 }
 
 .texto2 {   
-    color: #000;
+    
     font-family: Poppins;
     font-size: 162.789px;
     font-weight: 700;
     font-family: Poppins;
+    color: white;
 }
 
 .texto3{
-    color: #000;
+    
     font-family: Poppins;
     font-size: 18px;
     font-style: bold;
+    color: white;
 }
 
 /*----------fim do section------*/ 
@@ -137,14 +147,15 @@ section{ /*isso aqui é um bloco*/
     color: #ffffff;
     text-align: center;
     font-family: Poppins;
-    font-size: 22.093px;
+    font-size: 15px;
     font-style: italic;
-    padding: 20px 0 30px 0; 
+    padding: 10px 0 20px 0; 
     clear: both;
     width: 100%;
+    position: fixed; /*o rodape fica no meio*/
+    left: 0;
     bottom: 0;
-    position: fixed;
-    margin: 0px;
+    width: 100%;
 }
 /*------------------ FIM DO rodape------------------*/
 
@@ -154,10 +165,11 @@ section{ /*isso aqui é um bloco*/
 
 
 .quemsou p{
-    color: #000;
+    
     font-family: Poppins;
     font-size: 22.093px;
     font-style: italic;
+    color: white;
 }
 
 /*ajustando a imagem aqui*/
@@ -177,13 +189,14 @@ section{ /*isso aqui é um bloco*/
 /*formulario*/
 
 .formulario{
-    color: #000;
+    
     font-family: Poppins;
     font-size: 22.093px;
     font-style: italic;
     font-weight: normal;
     line-height: normal;
     text-decoration: none;
+    color: white;
 }
 
 
@@ -193,6 +206,7 @@ section{ /*isso aqui é um bloco*/
     font-size: 20px;
     position: absolute;
     font-family: Poppins;
+    color: white;
    
 }
 .card {
